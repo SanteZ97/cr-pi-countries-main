@@ -4,7 +4,7 @@ import './App.css';
 import Nav from "./componentes/NavBar/Nav";
 import Home from './componentes/Home/Home';
 import Detail from './componentes/Detail/Detail';
-import ActivityPage from './componentes/activityPage/ActivityPage';
+import ActivityPage from './componentes/ActivityPage/ActivityPage';
 import Activities from './componentes/Activities/Activities';
 import LandingPage from './componentes/Landing/LandingPage';
 
