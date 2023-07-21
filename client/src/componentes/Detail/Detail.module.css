@@ -1,0 +1,147 @@
+.detailCtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  height: 800px;
+}
+
+.detailBox {
+  width: 25%;
+  padding: 2rem;
+  border: 2px solid #000000;
+  background-color: #f0f0f0bd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.btnBack {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #f0f0f0bd; 
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 650px;
+  margin-left: 10px;
+}
+
+.detailtop {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.countryH1 {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+  color: #000000;
+}
+
+.detailImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.detailBottomText {
+  margin-top: 1rem;
+}
+
+.dataH3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.countryH3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #000000;
+}
+
+.countryH3 span {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #000000b7;
+}
+
+.populationClass {
+  margin-top: 2rem;
+}
+
+.activitiCtn {
+  width: 25%;
+  margin-left: 1rem;
+  padding: 1rem;
+  border: 2px solid #4a4a4a;
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.activitiCtn > h1 {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.activitiCard {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.activitiCard > h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.activitiCard > p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.spanDetail {
+  float: right;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.ldsDualRing {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.ldsDualRing:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #4a4a4a;
+  border-color: #4a4a4a transparent #4a4a4a transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes ldsDualRing {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

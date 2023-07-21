@@ -1,0 +1,31 @@
+.landingCtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.landingHero {
+    font-size: 5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.landingBtn {
+    margin-top: 3rem;
+    color: aliceblue;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 1.5rem 3rem;
+    border: 2px solid rgba(47, 46, 48, 0.7);
+    border-radius: 50px;
+    background-color: rgba(47, 46, 48, 0.7);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.landingBtn:hover {
+    background-color: rgba(47, 46, 48, 1);
+    color: white;
+}

@@ -1,0 +1,56 @@
+.inputCtn {
+  width: 575px;
+  height: 130px;
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  margin: 1rem 10rem;
+  margin-right: 15rem;
+  border-radius: 5px;
+  background-color: #f0f0f0ab;
+}
+
+.h3Title {
+  border-top: none;
+  margin-bottom: 0.8rem;
+  color: black
+}
+
+
+
+.searchBar {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.input{
+  width: 60%;
+  padding: 0.4rem;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+}
+
+.h3Search {
+  font-weight: 400;
+}
+
+.inputBtn{
+    width: 25%;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    border: 2px solid #000000;
+    background-color: rgba(255, 255, 255, 0.767);
+    border-radius: 10px;
+    color: #000000;
+    cursor: pointer;
+    padding-bottom: 0.3rem;
+  
+}
+
+.errorBar{
+color: red;
+margin-top: 0.2rem;
+padding: 0.3rem;
+}
