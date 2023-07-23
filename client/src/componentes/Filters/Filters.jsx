@@ -107,8 +107,8 @@ const Filters = () => {
             }}
           >
             <option>Population</option>
-            <option value="ascendant">Ascendant</option>
-            <option value="descendant">Descendant</option>
+            <option value="descendant">Ascendant</option>
+            <option value="ascendant">Descendant</option>
           </select>
         </div>
         <div className={style.containerFilterSelect}>
